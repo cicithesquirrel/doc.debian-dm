@@ -23,6 +23,14 @@ sudo apt install cinnamon-core lightdm libgl1-mesa-dri x11-xserver-utils --no-in
 sudo apt install xfce4
 ```
 
+## MATE
+
+```
+sudo apt install mate-desktop-environment-core lightdm
+```
+
+Note : the _MATE terminal emulator_ is included.
+
 # Options
 
 ## Terminal emulator
