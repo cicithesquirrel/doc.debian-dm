@@ -40,6 +40,8 @@ Resources:
 
 ## XFCE
 
+![XFCE screenshot](/xfce.png)
+
 ```
 sudo apt install xfce4
 ```
