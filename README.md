@@ -14,6 +14,10 @@ Terminal emulators:
 * Included: XTerm, UXTerm
 * Suggested: LXTerminal
 
+Browser:
+* Included: None
+* Suggested: Firefox-ESR
+
 Resources:
 * Hard drive space: 1.8 GB
 * Memory: 169 MB
