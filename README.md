@@ -10,7 +10,9 @@ This is a simple procedure list of how to add a desktop environment on a bare De
 sudo apt install lxde-core lightdm
 ```
 
-Includes XTerm terminal emulator.
+Terminal emulators:
+* Included: XTerm, UXTerm
+* Suggested: LXTerminal
 
 Resources:
 * Hard drive space: 1.8 GB
@@ -22,10 +24,11 @@ Resources:
 sudo apt install xserver-xorg xserver-xorg-core xfonts-base xinit --no-install-recommends
 sudo apt install cinnamon-core lightdm libgl1-mesa-dri x11-xserver-utils --no-install-recommends
 ```
-
-Includes XTerm terminal emulator.
-
 Requires video hardware acceleration.
+
+Terminal emulators:
+* Included: XTerm, UXTerm
+* Suggested: ???
 
 Resources:
 * Hard drive space: 2.4 GB
@@ -37,7 +40,9 @@ Resources:
 sudo apt install xfce4
 ```
 
-Includes XTerm terminal emulator.
+Terminal emulators:
+* Included: XTerm, UXTerm
+* Suggested: XFCE4-Terminal
 
 Resources:
 * Hard drive space: 1.6 GB
@@ -49,11 +54,13 @@ Resources:
 sudo apt install mate-desktop-environment-core lightdm
 ```
 
-Includes MATE terminal emulator.
+Terminal emulators:
+* Included: MATE terminal emulator
 
 Resources:
 * Hard drive space: 1.9 GB
 * Memory: 284 MB
+* 
 
 ## Gnome
 
@@ -61,18 +68,9 @@ Resources:
 sudo apt install gnome-core
 ```
 
-Includes Gnome terminal emulator.
+Terminal emulators:
+* Included: Gnome terminal emulator
 
 Resources:
 * Hard drive space: 2.8 GB
 * Memory: 370 MB
-
-# Options
-
-## Terminal emulator
-
-When missing a nice terminal emulator:
-
-```
-sudo apt install gnome-terminal --no-install-recommends
-```
