@@ -1,29 +1,34 @@
 # About this document
 
-This is a simple procedure list of how to add a desktop manager on a bare Debian Jessie system.
+This is a simple procedure list of how to add a desktop environment on a bare Debian Jessie system.
 
-# LXDE
+# Installing desktop environments
+
+## LXDE
 
 ```
 sudo apt install lxde-core lightdm
 ```
 
-# Cinnamon
+## Cinnamon
 
 ```
 sudo apt install xserver-xorg xserver-xorg-core xfonts-base xinit --no-install-recommends
 sudo apt install cinnamon-core lightdm libgl1-mesa-dri x11-xserver-utils --no-install-recommends
 ```
 
-# XFCE
+## XFCE
 
 ```
 sudo apt install xfce4
 ```
 
-# Option
+# Options
 
-When missing a terminal emulator:
+## Terminal emulator
+
+When missing a nice terminal emulator:
+
 ```
 sudo apt install gnome-terminal --no-install-recommends
 ```
