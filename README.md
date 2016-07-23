@@ -68,7 +68,6 @@ Terminal emulators:
 Resources:
 * Hard drive space: 1.9 GB
 * Memory: 284 MB
-* 
 
 ## Gnome
 
