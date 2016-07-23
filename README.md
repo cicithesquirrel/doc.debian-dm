@@ -6,6 +6,8 @@ This is a simple procedure list of how to add a desktop environment on a bare De
 
 ## LXDE
 
+![XFCE screenshot](/lxde.png)
+
 ```
 sudo apt install lxde-core lightdm
 ```
